@@ -29,7 +29,6 @@ public class skidesign {
 			min = Math.min(min, sum);
 		}
 		
-		System.out.println(12*11*10*9*8*7*6*5*4*3*2*1);
 		out.println(min);
 		out.close();
 	}
