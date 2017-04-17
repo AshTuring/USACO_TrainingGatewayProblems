@@ -62,13 +62,10 @@ public class prefix {
 						{
 							done = false;
 							memo[i+p.get(x).length()] = true;
-						}
-							
+						}		
 					}
-					
 				}
 			}
-			
 		}
 		
 		for(int i = memo.length-1; i >= 0; i--)
